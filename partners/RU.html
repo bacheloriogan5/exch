@@ -1,0 +1,733 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<head id="Head1">
+<title>	
+			Cryptopay24 - Партнерская программа        		</title>
+		
+			<meta name="description" content="">        	
+<meta name="yandex-verification" content="5ad2adb5fc8a351c" /><meta name="google-site-verification" content="QizbO3JU7bXy5RxO96fqiYUhPRMEzIVv8q4D9lDUkAc" /><meta name="google-site-verification" content="xLa1TmeqE-Jy6XA5E5SOFxWx0Q_THLK8mcH4_roKyfM" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="google-translate-customization" content="daa4f22a47cba69d-3ac6edf1e9d0db18-ga5d1512540628443-d" /></meta>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <!-- Included CSS Files (Compressed) -->	
+	<link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="icon" type="image/ico" href="../img/favicon.png"/>
+    <link rel="stylesheet" href="../css/app.css" />
+	
+	
+	<!--
+	<link rel="stylesheet" href="/css/jquery-ui.css" />
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+	-->
+    <link rel="stylesheet" type="text/css" href="../css/msdropdown/dd.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="../css/sweetalert2.min.css">
+
+    <script src="../js/jquery-2.2.4.min.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+    <script src="../js/bootstrap.min.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+    <script src="../js/carousel.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+    <script src="../js/common.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+    <script src="../js/sweetalert2.min.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+    <script src="../js/jquery.dd.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+    <script src="../js/jquery.form.min.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+	<script src="../js/NXCJS/geti.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+	 <script src="https://cryptopay24.com/js/jquery-ui.min.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+	 <script src="../js/NXCJS/blockwallet.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+	
+
+
+	<script src="../js/clock-1.0.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>	
+    <script type="4b10246c6a0f94cfd5c97586-text/javascript">
+        //<![CDATA[
+        //
+        // After the page is loaded.
+        //
+        window.onload = function () {
+
+            //
+            // Initialize a new clock.
+            //
+            var clock = new Clock();
+			            //
+            // Display the Current UTC time.
+            //
+            clock.display({
+                containerId: 'divUTCTime',
+                includeSeconds: false,     // Optional. By default false
+                enableAMPMMode: false,     // Optional. By default true
+                color: '#80e2ff',            // Optional. By default 'Black'
+                width: 140,               // Optional. By default 200
+                height: 30,               // Optional. By default 25
+                fontSize: 30,             // Optional. By default 30 
+                fontFamily: 'Roboto Condensed', // Optional. By default 'sans-serif'
+                timeZone: 'utc',          // Optional. By default 'local'
+                addHours: 7,              // Optional. By default 0
+                substractHours: 0,        // Optional. By default 0
+                formatTime: true          // Optional. By default true
+            });
+		};
+         //]]>
+    </script> 
+	<!--[if  ie 9]>
+		<style type="text/css" media="screen">
+		    .button, .button:hover, .buttonor, .buttonor:hover, .loginwrapp, .panel-g2, .newsboxwr, .buttongray, .bggrgr, .modalDialog > div
+		    {
+		        filter: none;
+		    }
+		</style>
+		<![endif]-->
+	
+  
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+		.alert {
+			padding: 3px;
+			background-color: #f44336;
+			color: white;
+					}
+
+		.closebtn {
+			margin-left: 15px;
+			color: white;
+			font-weight: bold;
+			float: right;
+			font-size: 22px;
+			line-height: 3px;
+			cursor: pointer;
+			transition: 0.3s;
+		}
+
+		.closebtn:hover {
+			color: black;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+<!-- СЕРВИС ОБМЕНА ЭЛЕКТРОННЫХ ВАЛЮТ -->
+ 			    <div class="alert"><div>
+        <span class="closebtn" onclick="if (!window.__cfRLUnblockHandlers) return false; this.parentElement.parentElement.style.display='none';" data-cf-modified-4b10246c6a0f94cfd5c97586-="">&times;</span>
+        <strong>ВНИМАНИЕ!</strong> Все транзакции проходят AML проверку. Перед созданием заказа, рекомендуем самостоятельно проверять ваши активы, используя сервис https://explorer.crystalblockchain.com/  или https://amlbot.com/ru/		</div>
+    </div>
+        					<script src="https://code.jivo.ru/widget/et0VGBSIUH" async type="4b10246c6a0f94cfd5c97586-text/javascript"></script>        					<link rel="stylesheet" type="text/css" href="../css/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+<script type="4b10246c6a0f94cfd5c97586-text/javascript">
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#1f73b7"
+    },
+    "button": {
+      "background": "#80e2ff"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "message": "Мы используем Cookie (куки) файлы для того, чтобы  Вам было удобнее пользоваться нашим сайтом . Если вы продолжаете использовать наш сайт, Вы соглашаетесь на сбор и хранение Cookie (куки) файлов на вашем устройстве.",
+    "dismiss": "Принять и продолжить",
+    "link": "Узнать больше",
+    "href": "https://Cryptopay24.com/privacypolicy/RU"
+  }
+})});
+</script>        		
+
+<div class="nx-header-wrapp">
+	<div id="nx-header">
+                <div class="nx-header-wrap">
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="logo">
+                                <a href='../RU.html' title="cryptopay24">cryptopay<span>24</span></a>
+                            </div>
+                        </div>
+                        <div class="two columns">
+                        </div>
+                        <div class="six columns">
+                            <div class="nx-contactblock">
+                                <div class="nx-box">
+                                </div>
+                                <div class="nx-contactblock-mail"><i class="mail"></i><a href="../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="81f2f4f1f1eef3f5c1e2f3f8f1f5eef1e0f8b3b5afe2eeec">[email&#160;protected]</a></div>
+                                <div class="nx-contactblock-icq"></div>
+                             <a href="RU.html#" onclick="if (!window.__cfRLUnblockHandlers) return false; jivo_api.open();" data-cf-modified-4b10246c6a0f94cfd5c97586-="">    <div class="nx-contactblock-jabber"><i class="consultant_icon"></i> Consultant On-line</div></a>
+								
+					
+                       
+					</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ 	<!--navigation-->
+    <div class="nx-top-navigation">
+        <div class="row">
+            <div class="nx-top-navigation-wrap">
+                <ul class="nav-bar1 nx-ulmenu twelve columns">
+                                ﻿<li><a href="../RU.html"><div class="nx-active-item-menu"><img src="../img/menu_a.png"></div><span>Обмен</span></a></li>
+<!--<li><a href="/tariff/RU#simple2"><div class="nx-active-item-menu"><img src="/img/menu_a.png"></div><span>Тарифы</span></a></li>-->
+<li class="active"><a href="RU.html"><div class="nx-active-item-menu"><img src="../img/menu_a.png"></div><span>Партнерам</span></a></li>
+<li><a href="../faq/RU.html#simple1"><div class="nx-active-item-menu"><img src="../img/menu_a.png"></div><span>Часто задаваемые вопросы</span></a></li>
+<li ><a href="../amlpolicy/RU.html"><div class="nx-active-item-menu"><img src="../img/menu_a.png"></div><span>AML/KYC</span></a></li>
+<li><a href="../contacts/RU.html"><div class="nx-active-item-menu"><img src="../img/menu_a.png"></div><span>Контакты</span></a></li>                
+				
+				<li class="nx-limenu-language">
+					
+                        <a href="../RU.html" onclick="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-4b10246c6a0f94cfd5c97586-="">
+                            <div class="nx-active-item-menu">
+                                <img src="../img/menu_a.png">
+                            </div>
+                            <span>
+                                <img src="../img/flag_russia.png" alt="Русский" title="Русский">
+                                Русский</span>
+                        </a>
+                        <ul class="nx-ulsubmenu">
+                            <li>
+                                <a href="../EN.html" onclick="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-4b10246c6a0f94cfd5c97586-="">
+                                    <img src="../img/flag_uk.png" alt="English" title="English">
+                                    English</a>
+                            </li>
+                        </ul>				
+				</li>
+				</ul>
+            </div>
+        </div>
+    </div>
+
+
+		<!--end nav-->
+		</div>
+	</div>
+
+
+
+
+
+
+<div class="row nx-contentglobalwrapper">
+	<div class="nx-contentglobalwrapper-row">
+		<div class="nine columns nx-contentleft">
+            <div class="nx-rowcontent">
+	<div class="twelve columns nx-contenthead">
+		<h1>Партнерская программа</h1>
+	</div>
+	<div class="twelve columns">
+		<div class="nx-textboxcontentwrapp">
+			<div class="nx-textboxcontent" id="nx-textboxscroll00">
+			Предлагаем мониторингам, возможность взаимовыгодного сотрудничества! Наша партнерская программа очень гибкая, и мы готовы найти компромисс и подход к каждому партнеру. На данный момент 
+			мы готовы предоставить <span id="MainContent_Label1">15</span>% от заработка нашего обменного пункта с каждой операции обмена и Статус - бронзовый партнер!<br><br>
+
+			Всего статусов 4-е.<br><br>
+
+                                                Бронза                                
+                - процент заработка 15%<br/>
+
+                                                Серебро                                
+                - процент заработка 20%<br/>
+
+                                                Золото                                
+                - процент заработка 25%<br/>
+
+                                                Платина                                
+                - процент заработка 30%<br/>
+
+            			<br>
+			Так-же у нас установленна минимальная сумма выплаты, только по достижению минимальной суммы возможно потребовать выплату, сумма состовляет <span id="MainContent_minsum">10</span> USD, все операции не важно в какой валюте совершенные 
+			конвертируются к доллару!<br><br>
+
+			По мере, нашего сотрудничества и ликвидности того или иного партнера, ему может быть увеличен процент - статус. Для того, чтобы стать партнером пройдите простую регистрацию и добро пожаловать!<br><br>
+			</div>
+		</div>
+ 	</div>
+	<div class="nx-partner-buttons">
+			<a name="partnerblk"></a>
+			<div class="six columns">
+                <span class="nx-parthner-checkbox"><input id="CheckBox1" type="checkbox" name="ctl00$MainContent$CheckBox1" onclick="if (!window.__cfRLUnblockHandlers) return false; $('#LinkButton1').removeAttr('disabled'); $('#CheckBox1').prop('disabled', true);$('#LinkButton1').click(function(){LinkButton1_Click();});" data-cf-modified-4b10246c6a0f94cfd5c97586-=""></span>С правилами ознакомлен и согласен
+			</div>
+			<div class="tree columns">
+				<a href="RU.html#partnerblk" id="LinkButton1" class="medium button nx-submit" disabled>Стать партнером</a>
+			</div>
+			<div class="tree columns">
+				<a href="RU.html#partnerblk" id="LinkButton2" onclick="if (!window.__cfRLUnblockHandlers) return false; LinkButton2_Click();" class="medium button nx-submit" data-cf-modified-4b10246c6a0f94cfd5c97586-="">Я уже партнер</a>
+			</div>
+			<div class="twelve columns">
+
+				<div class="nexa-parthner-popup" id="regpart" style="display: none;">
+		
+					<div class="six columns">
+						<label>E-mail *</label>
+						<label>URL адрес(мониторинга) *</label>
+						<label>Система для получения вознагарждения:</label>
+						<label>Кошелек/номер счета *</label>
+						<label>Защитный код *</label>
+
+					</div>
+					<div class="six columns">
+						<span id="tb1" style="color: red"></span>
+						<input type="text" id="TextBox3"/>
+						<span id="tb2" style="color: red"></span>
+						<input type="text" id="RadMaskedTextBox2"/>
+						<span id="tb3" style="color: red"></span>
+						<select name="DropDownList1" id="DropDownList1" class="nx-select-fee">
+    <option value='nap'>Выберите направление</option>
+    <option value='WMR' title='/img/wmr.png'>Webmoney RUB</option>
+    <option value='WMZ' title='/img/wmz.png'>Webmoney USD</option>
+    <option value='PMUSD' title='/img/perfect.png'>Perfect Money USD</option>
+    <option value='QIWIRUB' title='/img/qiwi.png'>QIWI RUB</option>
+    <option value='YADRUB' title='/img/yad1.png'>Yandex RUB</option>
+    <option value='BTC' title='/img/bitcoin.png'>Bitcoin BTC</option>
+    <option value='ARUB' title='/img/alfa.png'>Альфабанк RUB</option>
+    <option value='SBRUB' title='/img/sber.png'>Сбербанк RUB</option>
+</select>						<span id="tb4" style="color: red"></span>
+						<input type="text" id="TextBox9"/>
+						<span id="tb5" style="color: red"></span>
+						<div class="g-recaptcha" data-sitekey="6Le900MUAAAAABG7qm9rxIYbJXCunHttOb2YQp2u"></div>
+						
+						
+
+					</div>
+					<div class="twelve columns">
+					                <input type="button" id="Button1" value="Регистрация" onclick="if (!window.__cfRLUnblockHandlers) return false; Button1_Click();" class="medium button" style="float:right;" data-cf-modified-4b10246c6a0f94cfd5c97586-="" />
+					 </div>
+				
+				</div>
+				<div id="expart" style="display: none;" class="nexa-parthner-popup">
+		
+	  
+				<div class="two columns">
+						<label class="inline">Логин</label>
+					</div>
+					<div class="four columns">
+					    
+                        <input type="text" id="LoginIn" placeholder="Ваш e-mail"/>
+
+					</div>
+				
+				<div class="two columns">
+						<label class="inline">Пароль</label>
+				</div>
+					<div class="four columns">
+                        <input type="password" id="PassIn" placeholder="******"/>
+					</div>
+					
+					<div class="twelve columns">
+						<div class='error_' id="errPLoginPass" style="display: none">
+							<img src='../img/error2.png' alt='' /> Логин и пароль не совпадают
+						</div>
+                        
+					</div>
+
+					<div class="twelve columns">
+					<input type="button" id="Button2" value="Войти" onclick="if (!window.__cfRLUnblockHandlers) return false; Button6_Click();" class="medium button" style="float:right;" data-cf-modified-4b10246c6a0f94cfd5c97586-="" />
+					<a href='../premember/RU.html' class="rememb inline nexa-parthner-remeb-herf" data-title="Забыли пароль?" rel="nofollow">Забыли пароль?</a>
+					</div>
+
+        
+				</div>
+
+			</div>
+		
+	</div>
+	
+<div class="twelve columns">
+		<div class="nx-textboxcontentwrapp">
+		В личном кабинете вы можете получить статистику обменов совершённых вашими рефералами, узнать состояние своего
+		бонусного счёта, заказать выплату комиссионных, а так же получить рекламные материалы и партнёрские ссылки
+		индивидуально подготовленные для каждого партнёра Cryptopay24.<br><br>
+		Нашим партнёрам мы отдаём от 15% до 30%, полученной в результате любого обмена, совершённого их 
+		рефералом. Размер партнёрского вознаграждения и статуса партнёра определяется в соответствии со следующей шкалой:
+<!--			<div class="nx-parthnerraiting">
+					<div class="nx-parthner-minibox2">
+			<div class="nx-parthner-minibox2-wrapper nx-lev-noob">
+				<span>Вы привлекли <b>0-99</b> рефералов</span>
+				<strong>Ваше вознаграждение<br>15%</strong>
+				<div class="nx-bottom-line2 nx-lev-noob">Новичёк</div>
+			</div>
+		</div>
+		<div class="nx-parthner-minibox2">
+			<div class="nx-parthner-minibox2-wrapper nx-lev-silver">
+				<span>Вы привлекли <b>0-99</b> рефералов</span>
+				<strong>Ваше вознаграждение<br>20%</strong>
+				<div class="nx-bottom-line2  nx-lev-silver">Серебряный партнёр</div>
+			</div>
+		</div>
+		<div class="nx-parthner-minibox2">
+			<div class="nx-parthner-minibox2-wrapper nx-lev-gold">
+				<span>Вы привлекли <b>0-99</b> рефералов</span>
+				<strong>Ваше вознаграждение<br>25%</strong>
+				<div class="nx-bottom-line2  nx-lev-gold">Золотой партнёр</div>
+			</div>
+		</div>
+		<div class="nx-parthner-minibox2">
+			<div class="nx-parthner-minibox2-wrapper nx-lev-platinum">
+				<span>Вы привлекли <b>0-99</b> рефералов</span>
+				<strong>Ваше вознаграждение<br>30%</strong>
+				<div class="nx-bottom-line2 nx-lev-platinum">Платиновый партнёр</div>
+			</div>
+		</div>
+
+			</div>-->
+		</div>
+	</div>
+</div>
+
+
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../js/NXCJS/partcrs.js" type="4b10246c6a0f94cfd5c97586-text/javascript"></script>
+<script src='https://www.google.com/recaptcha/api.js' type="4b10246c6a0f94cfd5c97586-text/javascript"></script>        </div>
+
+		<div class="three columns nx-contentright">
+			<div id="insucf">
+
+                 	<div id="Panel1">
+		<div class="mobile-three nx-boxwrapper">
+			<div class="nx-boxleftline"></div>
+			<div class="box">
+				<div class="nx-titlebox">
+					<i class="loginkey_icon"></i>Вход в систему
+				</div>
+				<div class="form_login">
+					<div class="nx-input">
+						<input type="text" id="uemail" name="uemail" placeholder="Ваш e-mail"/>
+					</div>
+				
+					<div class="nx-input">
+						<input type="password" id="upass" name="upass" placeholder="Пароль"/>
+					</div>
+
+				    <div class='error_' id="errLoginPass" style="display: none">
+						<img src='../img/error2.png' alt='' /> Логин и пароль не совпадают
+					</div>
+
+
+					<div class="nx-loginremebertext">
+						<a href='RU.html#' onclick="if (!window.__cfRLUnblockHandlers) return false; swal('','Для того, чтобы стать зарегистрированным участником просто оформите заявку!','info');" class="rega inline" title="Регистрация" data-cf-modified-4b10246c6a0f94cfd5c97586-="">Регистрация</a><br>
+						<a href='https://cryptopay24.com/uremember/RU' class="rememb inline" title="Забыли пароль?" rel="nofollow">Забыли пароль?</a>
+					</div>
+				
+					<div class="nx-buttonlogin">
+						<input type="submit" class="medium button" id="ButtonL" onclick="if (!window.__cfRLUnblockHandlers) return false; ButtonL();" value="ВОЙТИ" data-cf-modified-4b10246c6a0f94cfd5c97586-="" />
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+
+
+
+            </div>
+<!--<a style = "margin: -15px 67px 15px;    display: block;" href="https://amlbot.com/" target="_blank"><img src="	https://cryptopay24.com/img/aml.png" /></a>	-->	
+            		<div class="newsboxwr nx-boxwrapper">
+			<div class="nx-boxleftline"></div>
+			<div class="box">
+				<div class="nx-titlebox">
+					<i class="megaphone-icon"></i><a href='../news/RU.html'>Новости</a>
+				</div>
+				
+
+                                <p class="newsblock">
+                <span class="dates"> 1.1.2023 </span>
+                <a class="news" href="../news/RU.html">Дорогие клиенты, поздравляем Вас с Новым годом!</a>
+				</p>
+                                <p class="newsblock">
+                <span class="dates"> 28.10.2021 </span>
+                <a class="news" href="../news/RU.html">Добавлены в мониторинг Bestchange.ru</a>
+				</p>
+                                <p class="newsblock">
+                <span class="dates"> 1.05.2021 </span>
+                <a class="news" href="../news/RU.html">На сайт добавлены новые криптовалюты.</a>
+				</p>
+                
+            </div>
+		</div><!--					<div class="newsboxwr nx-boxwrapper">
+			<div class="nx-boxleftline"></div>
+			<div class="box">
+				<div class="nx-titlebox">
+					<i class="megaphone-icon"></i><a href='/uresp/RU'>Отзывы</a>
+				</div>
+				
+
+                                <p class="newsblock">
+                <span class="dates"> N/A </span>
+                <a class="news" href="/uresp/RU">Все прошло быстро и отлично. Спасибо.</a>
+				</p>
+                                <p class="newsblock">
+                <span class="dates"> N/A </span>
+                <a class="news" href="/uresp/RU">Сделал подряд 3 обмена, все пришло, спасибо)</a>
+				</p>
+                                <p class="newsblock">
+                <span class="dates"> N/A </span>
+                <a class="news" href="/uresp/RU">9 минут и 50к выслали, спасибо</a>
+				</p>
+                
+            </div>
+		</div>
+	-->		
+
+		</div>
+	</div>
+	
+	<div class="nx-descriptionmain ">
+		<div class="box nx-news-content">
+					</div>
+	</div>
+</div>
+
+<!--footer-->
+<!--<div class="nx-partners-wrapp">
+	<div class="row">
+		<div class="nx-partners">
+                    <div class="twelve columns">
+                        <ul class="nexa-partners-slide0" style="display: none">
+                            <li><a href="https://passport.webmoney.ru/asp/certview.asp?wmid=323180169307" target="_blank">
+                                <img src="/img/wm-cert.jpg" alt="Аттестован Вебмани"></a>
+                            </li>
+                            <li><a href="http://webmoney.ru" target="_blank">
+                                <img src="/img/wm.jpg" alt="Вебмани"></a>
+                            </li>
+                        </ul>
+                        <ul class="nexa-partners-slide">
+                            <li><a href="https://advcash.com/">
+                                <img src="/img/p-advcashlogo.png"></a>
+                            </li>
+                            <li><a href="https://www.okpay.com/">
+                                <img src="/img/p-okpay.png"></a>
+                            </li>
+                            <li><a href="https://payeer.com/">
+                                <img src="/img/p-payeer.png"></a>
+                            </li>
+                            <li><a href="https://perfectmoney.is/">
+                                <img src="/img/p-perfect_money.png"></a>
+                            </li>
+                        </ul>
+                        <ul class="nexa-partners-slide1" style="display: none">
+                            <li><a href="https://perfectmoney.is">
+                                <img src="/img/perfm.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.WEXUSD.com">
+                                <img src="/img/BTCEUSD_logo.png" alt=""></a>
+                            </li>
+                            <li><a href="https://pecunix.com/">
+                                <img src="/img/icons2_03.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.paypal.com">
+                                <img src="/img/icons2_04.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.liqpay.com">
+                                <img src="/img/liqpay_logo3.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.qiwi.com">
+                                <img src="/img/qiwi_logo.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.okpay.com">
+                                <img src="/img/okpay_log.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+	</div>
+</div>-->
+	<div class="nx-footer-wrapp">
+	<div class="row">
+		<div class="four columns">
+                <ul class="nx-footermenu">
+				<!--<li><a href="/tariff/RU#simple1" class="left">Тарифы </a> </li>-->
+				<li><a href="../fraud/RU.html" title="" class="left">Предупреждение о мошенничестве</a></li>
+				<li><a href="../useragreement/RU.html" title="" class="left">Пользовательское соглашение</a></li>
+                <li><a href="../Refundpolicy/RU.html" title="" class="left">Политика возвратов</a></li> 
+                 				
+			</ul>
+		</div>
+       <div class="four columns">
+			<ul class="nx-footermenu">
+				<li><a href="../amlpolicy/RU.html" class="left">AML Политика</a> </li>
+				<li><a href="../request/RU.html" class="left">Для запросов государственных и правоохранительных органов</a> </li>
+				                      
+			</ul>
+		</div>
+		<div class="four columns">
+			<div class="nx-footerbanners">
+                        <div class="twelve columns nx-footerbanners-title">&nbsp;</div>
+                        <div class="twelve columns nx-footerbanner">
+                        </div>
+                        <div class="twelve columns nx-footerbanner">
+                        </div>
+						
+			</div>
+		</div>
+		<div class="four columns">
+			<div class="nx-footercopyright" >
+						<p class="nx-copyright" style="margin-top: -10px">&nbsp;</p>
+						
+			</div>
+			<a href="https://www.bestchange.ru/cryptopay24-exchanger.html">
+					<img src="../img/bestchange.svg"
+                           title="Наши отзывы на крупнейшем мониторинге BestChange"
+                              alt="Мониторинг обменных пунктов BestChange.ru"
+                                width="88" height="18" border="0" />
+					</a>
+		</div>
+	</div>
+</div>
+		<div class="nexa-footer">
+            <div class="nexa-footer_resize row">
+                <p class="nx-lf">Copyright © <a href="RU.html#">Cryptopay24.com</a>. Все права защищены 2016-2024.</p>
+                <p class="nx-rf">&nbsp;</p>
+                <div class="clr"></div>
+            </div>
+        </div>		
+		
+		
+
+     <input id="gl-csrf-token" name="aysvSTdCWUtIT0xzTmtHNlJhUFFSZz09" value="S0djM2NUOEpKSWdIMXlYSVBDek9Xdz09" type="hidden" />
+     <input id="uhid" value="" type="hidden" />
+     <script type="4b10246c6a0f94cfd5c97586-text/javascript">
+
+         $(document).ready(function () {
+
+             show_hidden('exchange');
+             show_pay('exch_500', 'exch_33', this);
+             show_hiddenorder('zayorder');
+			 
+			 
+
+         });
+
+         function ButtonL() {
+
+             if ($('#uemail').val().length == 0 || $('#upass').val().length == 0) {
+                 $("#errLoginPass").show();
+                 return;
+             }
+
+             $.ajax({
+                 type: "POST",
+                 url: "/ulogin/slogin/RU",
+                 data: {
+                     uemail: $('#uemail').val(), upass: $('#upass').val(), uhid: $('#uhid').val(), 
+                     tk: $('#gl-csrf-token').attr('name'), tv: $('#gl-csrf-token').val()
+                 },
+                 dataType: "json",
+                 success: function (data, textStatus) {
+				 
+				  if(data.blocked != null)
+               
+
+
+			   {
+				                   
+
+                    if( window.location.href == "https://cryptopay24.com/RU") {
+
+                       
+                        swal({
+                            html:true,
+                title: "Отказано в обслуживании.", 
+                html: ' Учетная запись заблокирована администрацией сервиса. ', 
+                type: "error",
+				width: 650,
+                heght: 450,
+                showCancelButton: false, 
+                showConfirmButton: false,
+				allowOutsideClick: false,
+                allowEscapeKey: false
+                        });
+
+                    }
+                    else {
+
+                       
+                        swal({
+                            html:true,
+                title: "Service denied.", 
+                html: 'The account has been blocked by the administration of the service.', 
+                type: "error",
+				width: 650,
+                heght: 450,
+                showCancelButton: false, 
+                showConfirmButton: false,
+				allowOutsideClick: false,
+                allowEscapeKey: false
+                         });
+
+                                    }
+
+
+                                }
+
+                     if (data.retdat == null) {
+
+                         $("#errLoginPass").show();
+
+                         $('#gl-csrf-token')
+                                 .attr('name', data.csrfname)
+                                 .val(data.csrfval);
+                     }
+                     else {
+
+                         $("#insucf").html(data.retdat);
+
+                         $('#gl-csrf-token')
+                                 .attr('name', data.csrfname)
+                                 .val(data.csrfval);
+                     }
+                 },
+                 error: function () {
+                 }
+             });
+         }
+
+         function ButtonUL() {
+
+             $.ajax({
+                 type: "POST",
+                 url: "/ulogin/unlogin/RU",
+                 data: {},
+                 dataType: "html",
+                 success: function (results) {
+                     window.location.href = '/RU';
+                 },
+                 error: function () {
+                 }
+             });
+
+         }
+
+         function ButtonPUL() {
+
+             $.ajax({
+                 type: "POST",
+                 url: "/partners/punlogin/RU",
+                 data: {},
+                 dataType: "html",
+                 success: function (results) {
+                     window.location.href = '/partners/RU';
+                 },
+                 error: function () {
+                 }
+             });
+
+         }
+
+     </script>
+
+<script src="../cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="4b10246c6a0f94cfd5c97586-|49" defer></script></body>
+</html>

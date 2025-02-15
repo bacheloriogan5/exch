@@ -1,0 +1,10 @@
+User-Agent: *
+
+Disallow: /ucabinet/
+Disallow: /error/
+Disallow: /uremember/
+Disallow: /pcabinet/
+Disallow: /admin/
+Disallow: /uploads/ 
+Sitemap: https://cryptopay24.com/sitemap.xml
+Host: https://cryptopay24.com

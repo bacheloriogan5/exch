@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.6;}
+	.st1{clip-path:url(#XMLID_2_);fill:#020202;}
+	.st2{opacity:0.45;}
+	.st3{clip-path:url(#XMLID_3_);fill:#020202;}
+	.st4{opacity:0.8;}
+	.st5{clip-path:url(#XMLID_4_);fill:#020202;}
+	.st6{clip-path:url(#XMLID_5_);fill:#020202;}
+	.st7{clip-path:url(#XMLID_6_);fill:#020202;}
+</style>
+<g id="XMLID_398_">
+	<g id="XMLID_75_" class="st0">
+		<g id="XMLID_76_">
+			<defs>
+				<rect id="XMLID_78_" x="4.8" y="8.9" width="14.7" height="7.7"/>
+			</defs>
+			<clipPath id="XMLID_2_">
+				<use xlink:href="#XMLID_78_"  style="overflow:visible;"/>
+			</clipPath>
+			<path id="XMLID_77_" class="st1" d="M12.2,8.9l-7.4,3.4l7.4,4.4l7.4-4.4L12.2,8.9z"/>
+		</g>
+	</g>
+	<g id="XMLID_71_" class="st2">
+		<g id="XMLID_72_">
+			<defs>
+				<rect id="XMLID_74_" x="4.8" width="7.4" height="16.6"/>
+			</defs>
+			<clipPath id="XMLID_3_">
+				<use xlink:href="#XMLID_74_"  style="overflow:visible;"/>
+			</clipPath>
+			<path id="XMLID_73_" class="st3" d="M4.8,12.2l7.4,4.4V0L4.8,12.2z"/>
+		</g>
+	</g>
+	<g id="XMLID_64_" class="st4">
+		<g id="XMLID_67_">
+			<defs>
+				<rect id="XMLID_70_" x="12.2" width="7.4" height="16.6"/>
+			</defs>
+			<clipPath id="XMLID_4_">
+				<use xlink:href="#XMLID_70_"  style="overflow:visible;"/>
+			</clipPath>
+			<path id="XMLID_68_" class="st5" d="M12.2,0v16.6l7.4-4.4L12.2,0z"/>
+		</g>
+	</g>
+	<g id="XMLID_54_" class="st2">
+		<g id="XMLID_58_">
+			<defs>
+				<rect id="XMLID_63_" x="4.8" y="13.6" width="7.4" height="10.4"/>
+			</defs>
+			<clipPath id="XMLID_5_">
+				<use xlink:href="#XMLID_63_"  style="overflow:visible;"/>
+			</clipPath>
+			<path id="XMLID_59_" class="st6" d="M4.8,13.6L12.2,24v-6L4.8,13.6z"/>
+		</g>
+	</g>
+	<g id="XMLID_14_" class="st4">
+		<g id="XMLID_49_">
+			<defs>
+				<rect id="XMLID_53_" x="12.2" y="13.6" width="7.4" height="10.4"/>
+			</defs>
+			<clipPath id="XMLID_6_">
+				<use xlink:href="#XMLID_53_"  style="overflow:visible;"/>
+			</clipPath>
+			<path id="XMLID_50_" class="st7" d="M12.2,18v6l7.4-10.4L12.2,18z"/>
+		</g>
+	</g>
+</g>
+</svg>

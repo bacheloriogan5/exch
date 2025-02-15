@@ -1,0 +1,686 @@
+﻿
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<head id="Head1">
+<title>	
+			Cryptopay24 - покупайте и продавайте криптовалюту используя ваш любимый платежный инструмент        		</title>
+		
+			<meta name="description" content="Онлайн обменник электронных, виртуальных и криптовалют. У нас вы можете купить, продать или обменять Биткоин, Эфириум, Лайткоин, Рипл, Перфект Мани и многое другое. Мгновенный вывод на карты Visa и Mastercard, а также через системы срочных переводов Moneygram и Золотая Корона.">        	
+<meta name="yandex-verification" content="5ad2adb5fc8a351c" /><meta name="google-site-verification" content="QizbO3JU7bXy5RxO96fqiYUhPRMEzIVv8q4D9lDUkAc" /><meta name="google-site-verification" content="xLa1TmeqE-Jy6XA5E5SOFxWx0Q_THLK8mcH4_roKyfM" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="google-translate-customization" content="daa4f22a47cba69d-3ac6edf1e9d0db18-ga5d1512540628443-d" /></meta>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+    <!-- Included CSS Files (Compressed) -->	
+	<link rel="stylesheet" href="css/foundation.css" />
+    <link rel="icon" type="image/ico" href="img/favicon.png"/>
+    <link rel="stylesheet" href="css/app.css" />
+	
+	
+	<!--
+	<link rel="stylesheet" href="/css/jquery-ui.css" />
+    <link href="/css/bootstrap.css" rel="stylesheet"/>
+    <link href="/css/style.css" rel="stylesheet"/>
+	-->
+    <link rel="stylesheet" type="text/css" href="css/msdropdown/dd.css" />
+
+
+    <link rel="stylesheet" type="text/css" href="css/sweetalert2.min.css">
+
+    <script src="js/jquery-2.2.4.min.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+    <script src="js/carousel.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+    <script src="js/common.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+    <script src="js/sweetalert2.min.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+    <script src="js/jquery.dd.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+    <script src="js/jquery.form.min.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+	<script src="js/NXCJS/geti.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+	 <script src="https://cryptopay24.com/js/jquery-ui.min.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+	 <script src="js/NXCJS/blockwallet.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+	
+
+
+	<script src="js/clock-1.0.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>	
+    <script type="cb4ba55536384d4e88e7e4e6-text/javascript">
+        //<![CDATA[
+        //
+        // After the page is loaded.
+        //
+        window.onload = function () {
+
+            //
+            // Initialize a new clock.
+            //
+            var clock = new Clock();
+			            //
+            // Display the Current UTC time.
+            //
+            clock.display({
+                containerId: 'divUTCTime',
+                includeSeconds: false,     // Optional. By default false
+                enableAMPMMode: false,     // Optional. By default true
+                color: '#80e2ff',            // Optional. By default 'Black'
+                width: 140,               // Optional. By default 200
+                height: 30,               // Optional. By default 25
+                fontSize: 30,             // Optional. By default 30 
+                fontFamily: 'Roboto Condensed', // Optional. By default 'sans-serif'
+                timeZone: 'utc',          // Optional. By default 'local'
+                addHours: 7,              // Optional. By default 0
+                substractHours: 0,        // Optional. By default 0
+                formatTime: true          // Optional. By default true
+            });
+		};
+         //]]>
+    </script> 
+	<!--[if  ie 9]>
+		<style type="text/css" media="screen">
+		    .button, .button:hover, .buttonor, .buttonor:hover, .loginwrapp, .panel-g2, .newsboxwr, .buttongray, .bggrgr, .modalDialog > div
+		    {
+		        filter: none;
+		    }
+		</style>
+		<![endif]-->
+	
+  
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <style>
+		.alert {
+			padding: 3px;
+			background-color: #f44336;
+			color: white;
+					}
+
+		.closebtn {
+			margin-left: 15px;
+			color: white;
+			font-weight: bold;
+			float: right;
+			font-size: 22px;
+			line-height: 3px;
+			cursor: pointer;
+			transition: 0.3s;
+		}
+
+		.closebtn:hover {
+			color: black;
+		}
+	</style>
+	
+</head>
+
+<body>
+
+<!-- СЕРВИС ОБМЕНА ЭЛЕКТРОННЫХ ВАЛЮТ -->
+ 			    <div class="alert"><div>
+        <span class="closebtn" onclick="if (!window.__cfRLUnblockHandlers) return false; this.parentElement.parentElement.style.display='none';" data-cf-modified-cb4ba55536384d4e88e7e4e6-="">&times;</span>
+        <strong>ВНИМАНИЕ!</strong> Все транзакции проходят AML проверку. Перед созданием заказа, рекомендуем самостоятельно проверять ваши активы, используя сервис https://explorer.crystalblockchain.com/  или https://amlbot.com/ru/		</div>
+    </div>
+        					<script src="https://code.jivo.ru/widget/et0VGBSIUH" async type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>        					<link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+<script type="cb4ba55536384d4e88e7e4e6-text/javascript">
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#1f73b7"
+    },
+    "button": {
+      "background": "#80e2ff"
+    }
+  },
+  "theme": "edgeless",
+  "content": {
+    "message": "Мы используем Cookie (куки) файлы для того, чтобы  Вам было удобнее пользоваться нашим сайтом . Если вы продолжаете использовать наш сайт, Вы соглашаетесь на сбор и хранение Cookie (куки) файлов на вашем устройстве.",
+    "dismiss": "Принять и продолжить",
+    "link": "Узнать больше",
+    "href": "https://Cryptopay24.com/privacypolicy/RU"
+  }
+})});
+</script>        		
+
+<div class="nx-header-wrapp">
+	<div id="nx-header">
+                <div class="nx-header-wrap">
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="logo">
+                                <a href='RU.html' title="cryptopay24">cryptopay<span>24</span></a>
+                            </div>
+                        </div>
+                        <div class="two columns">
+                        </div>
+                        <div class="six columns">
+                            <div class="nx-contactblock">
+                                <div class="nx-box">
+                                </div>
+                                <div class="nx-contactblock-mail"><i class="mail"></i><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="cbb8bebbbba4b9bf8ba8b9b2bbbfa4bbaab2f9ffe5a8a4a6">[email&#160;protected]</a></div>
+                                <div class="nx-contactblock-icq"></div>
+                             <a href="RU.html#" onclick="if (!window.__cfRLUnblockHandlers) return false; jivo_api.open();" data-cf-modified-cb4ba55536384d4e88e7e4e6-="">    <div class="nx-contactblock-jabber"><i class="consultant_icon"></i> Consultant On-line</div></a>
+								
+					
+                       
+					</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ 	<!--navigation-->
+    <div class="nx-top-navigation">
+        <div class="row">
+            <div class="nx-top-navigation-wrap">
+                <ul class="nav-bar1 nx-ulmenu twelve columns">
+                                ﻿<li class="active"><a href="RU.html"><div class="nx-active-item-menu"><img src="img/menu_a.png"></div><span>Обмен</span></a></li>
+<!--<li><a href="/tariff/RU#simple2"><div class="nx-active-item-menu"><img src="/img/menu_a.png"></div><span>Тарифы</span></a></li>-->
+<li><a href="partners/RU.html"><div class="nx-active-item-menu"><img src="img/menu_a.png"></div><span>Партнерам</span></a></li>
+<li><a href="faq/RU.html#simple1"><div class="nx-active-item-menu"><img src="img/menu_a.png"></div><span>Часто задаваемые вопросы</span></a></li>
+<li ><a href="amlpolicy/RU.html"><div class="nx-active-item-menu"><img src="img/menu_a.png"></div><span>AML/KYC</span></a></li>
+<li><a href="contacts/RU.html"><div class="nx-active-item-menu"><img src="img/menu_a.png"></div><span>Контакты</span></a></li>                
+				
+				<li class="nx-limenu-language">
+					
+                        <a href="RU.html" onclick="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-cb4ba55536384d4e88e7e4e6-="">
+                            <div class="nx-active-item-menu">
+                                <img src="img/menu_a.png">
+                            </div>
+                            <span>
+                                <img src="img/flag_russia.png" alt="Русский" title="Русский">
+                                Русский</span>
+                        </a>
+                        <ul class="nx-ulsubmenu">
+                            <li>
+                                <a href="EN.html" onclick="if (!window.__cfRLUnblockHandlers) return false; " data-cf-modified-cb4ba55536384d4e88e7e4e6-="">
+                                    <img src="img/flag_uk.png" alt="English" title="English">
+                                    English</a>
+                            </li>
+                        </ul>				
+				</li>
+				</ul>
+            </div>
+        </div>
+    </div>
+
+
+		<!--end nav-->
+		</div>
+	</div>
+
+<div class="row">
+	<!-- <div class="twelve columns nx-conentbanner">
+		<iframe width="1100" height="304" src="https://www.youtube.com/embed/6vEnpwE-g_Q" frameborder="0" allowfullscreen=""></iframe>
+	</div>-->
+</div>
+
+
+
+
+
+<div class="row nx-contentglobalwrapper">
+	<div class="nx-contentglobalwrapper-row">
+		<div class="nine columns nx-contentleft">
+            
+<div class="twelve mobile-four collapse columns-c direcitons-list">
+	<div id="sticky" class="sticky-wrapper" style="z-index: 999;">
+	<div id="exchangeTableHeader" class="toptable mobile-four" style="width: 810px;">
+			<div class="ex-table-hcol1 mobile-twoc columns-c collapse">
+				<p class="tabtop">Вы отдаете</p>
+			</div>
+			<div class="ex-table-hcol2 mobile-twoc columns-c collapse">
+				<p class="tabtop">Хотите получить</p>
+			</div>
+			<div class="ex-table-hcol3 mobile-twoc columns-c collapse">
+				<p class="tabtop">Резервы</p>
+			</div>
+		</div>
+	</div>
+	<div id="exchangeTableHeader" class="toptable-fixed mobile-four">
+			<div class="ex-table-hcol1 mobile-twoc columns-c collapse">
+				<p class="tabtop">Вы отдаете</p>
+			</div>
+			<div class="ex-table-hcol2 mobile-twoc columns-c collapse">
+				<p class="tabtop">Хотите получить</p>
+			</div>
+			<div class="ex-table-hcol3 mobile-twoc columns-c collapse">
+				<p class="tabtop">Резервы</p>
+			</div>
+		</div>
+                <div class='block_content' style='padding-top: 0;padding-bottom: 0;width: 100%;'>
+                    <div id='hidden_exchange' class='hidden' style='width: 100%; display: inline-flex;'>
+                        <div id='exch_500' class='lft' style='width: 336px;'>
+
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_27&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/bitcoin.svg' alt='' /></div>Bitcoin BTC<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_30&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/eth.svg' alt='' /></div>Ethereum ETH<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_34&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/xmr.svg' alt='' /></div>Monero XMR<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_33&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/dash.svg' alt='' /></div>DASH DSH<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_32&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/zec.svg' alt='' /></div>ZCash ZEC<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_93&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/usdt.svg' alt='' /></div>USDT ERC20 USDT<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_94&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/usdt.svg' alt='' /></div>USDT TRC20 USDT<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_87&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/icx.svg' alt='' /></div>ICON ICX<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_96&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/dai.svg' alt='' /></div>DAI DAI<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_101&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/bat.svg' alt='' /></div>BAT BAT<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_102&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/ont.svg' alt='' /></div>Ontology ONT<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_103&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/uni.svg' alt='' /></div>Uniswap UNI<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_104&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/rvn.svg' alt='' /></div>Ravencoin RVN<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_105&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/sol.svg' alt='' /></div>Solana SOL<div class="nx-boxarrow">›</div></a>
+     </div>
+          <div>
+     <a href='javascript: void(0);' onclick="if (!window.__cfRLUnblockHandlers) return false; hideall();show_pay(&quot;exch_500&quot;,&quot;exch_106&quot;, this);" data-cf-modified-cb4ba55536384d4e88e7e4e6-=""><div class="nx-exchange-img"><img src='img/vet.svg' alt='' /></div>VeChain VET<div class="nx-boxarrow">›</div></a>
+     </div>
+     
+    
+
+                           
+                            
+                       </div>
+                        
+                       <div  id='exch_27' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-Bitcoin-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-Bitcoin-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-Bitcoin-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-Bitcoin-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-Bitcoin-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-Bitcoin-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-Bitcoin-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-Bitcoin-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-Bitcoin-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-Bitcoin-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-Bitcoin-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-Bitcoin-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-Bitcoin-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-Bitcoin-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-Bitcoin-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_30' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-Ethereum-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-Ethereum-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-Ethereum-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-Ethereum-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-Ethereum-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-Ethereum-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-Ethereum-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-Ethereum-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-Ethereum-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-Ethereum-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-Ethereum-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-Ethereum-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-Ethereum-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-Ethereum-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-Ethereum-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_32' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-ZCash-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-ZCash-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-ZCash-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-ZCash-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-ZCash-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-ZCash-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-ZCash-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-ZCash-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-ZCash-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-ZCash-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-ZCash-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-ZCash-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-ZCash-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-ZCash-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_33' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-DASH-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-DASH-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-DASH-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-DASH-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-DASH-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-DASH-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-DASH-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-DASH-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-DASH-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-DASH-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-DASH-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-DASH-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-DASH-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-DASH-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_34' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-Monero-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-Monero-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-Monero-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-Monero-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-Monero-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-Monero-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-Monero-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-Monero-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-Monero-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-Monero-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-Monero-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-Monero-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-Monero-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-Monero-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-Monero-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_87' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-ICON-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-ICON-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-ICON-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-ICON-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-ICON-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-ICON-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-ICON-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-ICON-to-NEO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/neo.svg' alt='' /></div><span>NEO NEO</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>3052</div></a></div><div><a  href='ru/exchange-ICON-to-OmiseGO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/omg.svg' alt='' /></div><span>OmiseGO OMG</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>289333</div></a></div><div><a  href='ru/exchange-ICON-to-0x.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zrx.svg' alt='' /></div><span>0x ZRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-ICON-to-BinanceCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bnb.svg' alt='' /></div><span>BinanceCoin BNB</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1400</div></a></div><div><a  href='ru/exchange-ICON-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-ICON-to-BinanceBEP2.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/busd.svg' alt='' /></div><span>Binance BEP2 BUSD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>170258</div></a></div><div><a  href='ru/exchange-ICON-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-ICON-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-ICON-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-ICON-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-ICON-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-ICON-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-ICON-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_93' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-USDTERC20-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-USDTERC20-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-USDTERC20-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-USDTERC20-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-USDTERC20-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-USDTERC20-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-USDTERC20-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-USDTERC20-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-USDTERC20-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-USDTERC20-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-USDTERC20-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-USDTERC20-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-USDTERC20-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_94' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-USDTTRC20-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-USDTTRC20-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_96' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-DAI-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-DAI-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-DAI-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-DAI-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-DAI-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-DAI-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-DAI-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-DAI-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-DAI-to-NEO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/neo.svg' alt='' /></div><span>NEO NEO</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>3052</div></a></div><div><a  href='ru/exchange-DAI-to-OmiseGO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/omg.svg' alt='' /></div><span>OmiseGO OMG</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>289333</div></a></div><div><a  href='ru/exchange-DAI-to-0x.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zrx.svg' alt='' /></div><span>0x ZRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-DAI-to-BinanceCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bnb.svg' alt='' /></div><span>BinanceCoin BNB</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1400</div></a></div><div><a  href='ru/exchange-DAI-to-ICON.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/icx.svg' alt='' /></div><span>ICON ICX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>942000</div></a></div><div><a  href='ru/exchange-DAI-to-BinanceBEP2.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/busd.svg' alt='' /></div><span>Binance BEP2 BUSD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>170258</div></a></div><div><a  href='ru/exchange-DAI-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-DAI-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-DAI-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-DAI-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-DAI-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-DAI-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-DAI-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_101' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-BAT-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-BAT-to-BitcoinCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bch.svg' alt='' /></div><span>Bitcoin Cash BCH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1462</div></a></div><div><a  href='ru/exchange-BAT-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-BAT-to-EthereumClassic.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/etc.svg' alt='' /></div><span>Ethereum Classic ETC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>15000</div></a></div><div><a  href='ru/exchange-BAT-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-BAT-to-Tron.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tron.svg' alt='' /></div><span>Tron TRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>12000000</div></a></div><div><a  href='ru/exchange-BAT-to-Cardano.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ada.svg' alt='' /></div><span>Cardano ADA</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>525879</div></a></div><div><a  href='ru/exchange-BAT-to-EOS.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eos.svg' alt='' /></div><span>EOS EOS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>230258</div></a></div><div><a  href='ru/exchange-BAT-to-USDCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdc.svg' alt='' /></div><span>USD Coin USRC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1104500</div></a></div><div><a  href='ru/exchange-BAT-to-TrueUSD.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tusd.svg' alt='' /></div><span>TrueUSD TRUS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-BAT-to-Ripple.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xrp.svg' alt='' /></div><span>Ripple XRP</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>385600</div></a></div><div><a  href='ru/exchange-BAT-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-BAT-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-BAT-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-BAT-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-BAT-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-BAT-to-NEO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/neo.svg' alt='' /></div><span>NEO NEO</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>3052</div></a></div><div><a  href='ru/exchange-BAT-to-OmiseGO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/omg.svg' alt='' /></div><span>OmiseGO OMG</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>289333</div></a></div><div><a  href='ru/exchange-BAT-to-0x.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zrx.svg' alt='' /></div><span>0x ZRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-BAT-to-BinanceCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bnb.svg' alt='' /></div><span>BinanceCoin BNB</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1400</div></a></div><div><a  href='ru/exchange-BAT-to-ICON.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/icx.svg' alt='' /></div><span>ICON ICX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>942000</div></a></div><div><a  href='ru/exchange-BAT-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-BAT-to-BinanceBEP2.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/busd.svg' alt='' /></div><span>Binance BEP2 BUSD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>170258</div></a></div><div><a  href='ru/exchange-BAT-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-BAT-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-BAT-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-BAT-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-BAT-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-BAT-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_102' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-Ontology-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-Ontology-to-BitcoinCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bch.svg' alt='' /></div><span>Bitcoin Cash BCH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1462</div></a></div><div><a  href='ru/exchange-Ontology-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-Ontology-to-EthereumClassic.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/etc.svg' alt='' /></div><span>Ethereum Classic ETC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>15000</div></a></div><div><a  href='ru/exchange-Ontology-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-Ontology-to-Tron.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tron.svg' alt='' /></div><span>Tron TRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>12000000</div></a></div><div><a  href='ru/exchange-Ontology-to-Cardano.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ada.svg' alt='' /></div><span>Cardano ADA</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>525879</div></a></div><div><a  href='ru/exchange-Ontology-to-EOS.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eos.svg' alt='' /></div><span>EOS EOS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>230258</div></a></div><div><a  href='ru/exchange-Ontology-to-USDCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdc.svg' alt='' /></div><span>USD Coin USRC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1104500</div></a></div><div><a  href='ru/exchange-Ontology-to-TrueUSD.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tusd.svg' alt='' /></div><span>TrueUSD TRUS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-Ontology-to-Ripple.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xrp.svg' alt='' /></div><span>Ripple XRP</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>385600</div></a></div><div><a  href='ru/exchange-Ontology-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-Ontology-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-Ontology-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-Ontology-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-Ontology-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-Ontology-to-NEO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/neo.svg' alt='' /></div><span>NEO NEO</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>3052</div></a></div><div><a  href='ru/exchange-Ontology-to-Stellar.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/str.svg' alt='' /></div><span>Stellar XLM</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1015454</div></a></div><div><a  href='ru/exchange-Ontology-to-OmiseGO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/omg.svg' alt='' /></div><span>OmiseGO OMG</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>289333</div></a></div><div><a  href='ru/exchange-Ontology-to-0x.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zrx.svg' alt='' /></div><span>0x ZRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-Ontology-to-BinanceCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bnb.svg' alt='' /></div><span>BinanceCoin BNB</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1400</div></a></div><div><a  href='ru/exchange-Ontology-to-ICON.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/icx.svg' alt='' /></div><span>ICON ICX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>942000</div></a></div><div><a  href='ru/exchange-Ontology-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-Ontology-to-BinanceBEP2.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/busd.svg' alt='' /></div><span>Binance BEP2 BUSD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>170258</div></a></div><div><a  href='ru/exchange-Ontology-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-Ontology-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-Ontology-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-Ontology-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-Ontology-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-Ontology-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_103' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-Uniswap-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-Uniswap-to-BitcoinCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bch.svg' alt='' /></div><span>Bitcoin Cash BCH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1462</div></a></div><div><a  href='ru/exchange-Uniswap-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-Uniswap-to-EthereumClassic.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/etc.svg' alt='' /></div><span>Ethereum Classic ETC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>15000</div></a></div><div><a  href='ru/exchange-Uniswap-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-Uniswap-to-Tron.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tron.svg' alt='' /></div><span>Tron TRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>12000000</div></a></div><div><a  href='ru/exchange-Uniswap-to-Cardano.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ada.svg' alt='' /></div><span>Cardano ADA</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>525879</div></a></div><div><a  href='ru/exchange-Uniswap-to-EOS.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eos.svg' alt='' /></div><span>EOS EOS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>230258</div></a></div><div><a  href='ru/exchange-Uniswap-to-USDCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdc.svg' alt='' /></div><span>USD Coin USRC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1104500</div></a></div><div><a  href='ru/exchange-Uniswap-to-TrueUSD.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tusd.svg' alt='' /></div><span>TrueUSD TRUS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-Uniswap-to-Ripple.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xrp.svg' alt='' /></div><span>Ripple XRP</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>385600</div></a></div><div><a  href='ru/exchange-Uniswap-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-Uniswap-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-Uniswap-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-Uniswap-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-Uniswap-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-Uniswap-to-NEO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/neo.svg' alt='' /></div><span>NEO NEO</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>3052</div></a></div><div><a  href='ru/exchange-Uniswap-to-Stellar.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/str.svg' alt='' /></div><span>Stellar XLM</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1015454</div></a></div><div><a  href='ru/exchange-Uniswap-to-OmiseGO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/omg.svg' alt='' /></div><span>OmiseGO OMG</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>289333</div></a></div><div><a  href='ru/exchange-Uniswap-to-0x.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zrx.svg' alt='' /></div><span>0x ZRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-Uniswap-to-BinanceCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bnb.svg' alt='' /></div><span>BinanceCoin BNB</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1400</div></a></div><div><a  href='ru/exchange-Uniswap-to-ICON.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/icx.svg' alt='' /></div><span>ICON ICX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>942000</div></a></div><div><a  href='ru/exchange-Uniswap-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-Uniswap-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-Uniswap-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-Uniswap-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-Uniswap-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-Uniswap-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-Uniswap-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_104' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-Ravencoin-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-Ravencoin-to-BitcoinCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bch.svg' alt='' /></div><span>Bitcoin Cash BCH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1462</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-Ravencoin-to-EthereumClassic.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/etc.svg' alt='' /></div><span>Ethereum Classic ETC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>15000</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Tron.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tron.svg' alt='' /></div><span>Tron TRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>12000000</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Cardano.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ada.svg' alt='' /></div><span>Cardano ADA</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>525879</div></a></div><div><a  href='ru/exchange-Ravencoin-to-EOS.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eos.svg' alt='' /></div><span>EOS EOS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>230258</div></a></div><div><a  href='ru/exchange-Ravencoin-to-USDCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdc.svg' alt='' /></div><span>USD Coin USRC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1104500</div></a></div><div><a  href='ru/exchange-Ravencoin-to-TrueUSD.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tusd.svg' alt='' /></div><span>TrueUSD TRUS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Ripple.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xrp.svg' alt='' /></div><span>Ripple XRP</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>385600</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-Ravencoin-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-Ravencoin-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-Ravencoin-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-Ravencoin-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-Ravencoin-to-NEO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/neo.svg' alt='' /></div><span>NEO NEO</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>3052</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Stellar.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/str.svg' alt='' /></div><span>Stellar XLM</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1015454</div></a></div><div><a  href='ru/exchange-Ravencoin-to-OmiseGO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/omg.svg' alt='' /></div><span>OmiseGO OMG</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>289333</div></a></div><div><a  href='ru/exchange-Ravencoin-to-0x.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zrx.svg' alt='' /></div><span>0x ZRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-Ravencoin-to-BinanceCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bnb.svg' alt='' /></div><span>BinanceCoin BNB</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1400</div></a></div><div><a  href='ru/exchange-Ravencoin-to-ICON.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/icx.svg' alt='' /></div><span>ICON ICX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>942000</div></a></div><div><a  href='ru/exchange-Ravencoin-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-Ravencoin-to-BinanceBEP2.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/busd.svg' alt='' /></div><span>Binance BEP2 BUSD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>170258</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-Ravencoin-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-Ravencoin-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div><div><a  href='ru/exchange-Ravencoin-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_105' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-Solana-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-Solana-to-BitcoinCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bch.svg' alt='' /></div><span>Bitcoin Cash BCH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1462</div></a></div><div><a  href='ru/exchange-Solana-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-Solana-to-EthereumClassic.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/etc.svg' alt='' /></div><span>Ethereum Classic ETC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>15000</div></a></div><div><a  href='ru/exchange-Solana-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-Solana-to-Tron.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tron.svg' alt='' /></div><span>Tron TRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>12000000</div></a></div><div><a  href='ru/exchange-Solana-to-Cardano.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ada.svg' alt='' /></div><span>Cardano ADA</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>525879</div></a></div><div><a  href='ru/exchange-Solana-to-EOS.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eos.svg' alt='' /></div><span>EOS EOS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>230258</div></a></div><div><a  href='ru/exchange-Solana-to-USDCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdc.svg' alt='' /></div><span>USD Coin USRC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1104500</div></a></div><div><a  href='ru/exchange-Solana-to-TrueUSD.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tusd.svg' alt='' /></div><span>TrueUSD TRUS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-Solana-to-Ripple.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xrp.svg' alt='' /></div><span>Ripple XRP</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>385600</div></a></div><div><a  href='ru/exchange-Solana-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-Solana-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-Solana-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-Solana-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-Solana-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-Solana-to-NEO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/neo.svg' alt='' /></div><span>NEO NEO</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>3052</div></a></div><div><a  href='ru/exchange-Solana-to-Stellar.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/str.svg' alt='' /></div><span>Stellar XLM</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1015454</div></a></div><div><a  href='ru/exchange-Solana-to-0x.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zrx.svg' alt='' /></div><span>0x ZRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-Solana-to-BinanceCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bnb.svg' alt='' /></div><span>BinanceCoin BNB</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1400</div></a></div><div><a  href='ru/exchange-Solana-to-ICON.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/icx.svg' alt='' /></div><span>ICON ICX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>942000</div></a></div><div><a  href='ru/exchange-Solana-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-Solana-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-Solana-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-Solana-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-Solana-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-Solana-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-Solana-to-VeChain.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/vet.svg' alt='' /></div><span>VeChain VET</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9973509</div></a></div></div><div  id='exch_106' class='pull-left' style='display: none;width: 333px;'><div><a  href='ru/exchange-VeChain-to-Bitcoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bitcoin.svg' alt='' /></div><span>Bitcoin BTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>74.8</div></a></div><div><a  href='ru/exchange-VeChain-to-BitcoinCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bch.svg' alt='' /></div><span>Bitcoin Cash BCH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1462</div></a></div><div><a  href='ru/exchange-VeChain-to-Ethereum.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eth.svg' alt='' /></div><span>Ethereum ETH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9821</div></a></div><div><a  href='ru/exchange-VeChain-to-EthereumClassic.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/etc.svg' alt='' /></div><span>Ethereum Classic ETC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>15000</div></a></div><div><a  href='ru/exchange-VeChain-to-Litecoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/litecoin.svg' alt='' /></div><span>Litecoin LTC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>7689.7</div></a></div><div><a  href='ru/exchange-VeChain-to-Tron.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tron.svg' alt='' /></div><span>Tron TRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>12000000</div></a></div><div><a  href='ru/exchange-VeChain-to-Cardano.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ada.svg' alt='' /></div><span>Cardano ADA</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>525879</div></a></div><div><a  href='ru/exchange-VeChain-to-EOS.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/eos.svg' alt='' /></div><span>EOS EOS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>230258</div></a></div><div><a  href='ru/exchange-VeChain-to-USDCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdc.svg' alt='' /></div><span>USD Coin USRC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1104500</div></a></div><div><a  href='ru/exchange-VeChain-to-TrueUSD.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/tusd.svg' alt='' /></div><span>TrueUSD TRUS</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-VeChain-to-Ripple.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xrp.svg' alt='' /></div><span>Ripple XRP</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>385600</div></a></div><div><a  href='ru/exchange-VeChain-to-Monero.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/xmr.svg' alt='' /></div><span>Monero XMR</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>6150</div></a></div><div><a  href='ru/exchange-VeChain-to-DASH.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dash.svg' alt='' /></div><span>DASH DSH</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>11875</div></a></div><div><a  href='ru/exchange-VeChain-to-ZCash.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zec.svg' alt='' /></div><span>ZCash ZEC</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>9856</div></a></div><div><a  href='ru/exchange-VeChain-to-USDTERC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT ERC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>4753130</div></a></div><div><a  href='ru/exchange-VeChain-to-USDTTRC20.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/usdt.svg' alt='' /></div><span>USDT TRC20 USDT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1350190</div></a></div><div><a  href='ru/exchange-VeChain-to-NEO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/neo.svg' alt='' /></div><span>NEO NEO</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>3052</div></a></div><div><a  href='ru/exchange-VeChain-to-Stellar.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/str.svg' alt='' /></div><span>Stellar XLM</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1015454</div></a></div><div><a  href='ru/exchange-VeChain-to-OmiseGO.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/omg.svg' alt='' /></div><span>OmiseGO OMG</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>289333</div></a></div><div><a  href='ru/exchange-VeChain-to-0x.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/zrx.svg' alt='' /></div><span>0x ZRX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>150000</div></a></div><div><a  href='ru/exchange-VeChain-to-BinanceCoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bnb.svg' alt='' /></div><span>BinanceCoin BNB</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>1400</div></a></div><div><a  href='ru/exchange-VeChain-to-ICON.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/icx.svg' alt='' /></div><span>ICON ICX</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>942000</div></a></div><div><a  href='ru/exchange-VeChain-to-DAI.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/dai.svg' alt='' /></div><span>DAI DAI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>152360</div></a></div><div><a  href='ru/exchange-VeChain-to-BinanceBEP2.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/busd.svg' alt='' /></div><span>Binance BEP2 BUSD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>170258</div></a></div><div><a  href='ru/exchange-VeChain-to-Komodo.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/kmd.svg' alt='' /></div><span>Komodo KMD</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>5000000</div></a></div><div><a  href='ru/exchange-VeChain-to-BAT.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/bat.svg' alt='' /></div><span>BAT BAT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>989100</div></a></div><div><a  href='ru/exchange-VeChain-to-Ontology.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/ont.svg' alt='' /></div><span>Ontology ONT</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>854000</div></a></div><div><a  href='ru/exchange-VeChain-to-Uniswap.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/uni.svg' alt='' /></div><span>Uniswap UNI</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>92400</div></a></div><div><a  href='ru/exchange-VeChain-to-Ravencoin.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/rvn.svg' alt='' /></div><span>Ravencoin RVN</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>2997365</div></a></div><div><a  href='ru/exchange-VeChain-to-Solana.html'><div class='nx-exchange-wrap'><div class='nx-exchange-img'><img src='img/sol.svg' alt='' /></div><span>Solana SOL</span><div class='nx-boxarrow'>›</div></div><div class='ex-table-col3'>980.45</div></a></div></div>                        
+                       <div class='clearfix'></div>
+
+                       </div>
+                   
+                </div>
+</div>
+  <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/sticky-kit.min.js" type="cb4ba55536384d4e88e7e4e6-text/javascript"></script>
+  <script type="cb4ba55536384d4e88e7e4e6-text/javascript">
+	$("#sticky").stick_in_parent();
+</script>
+
+
+            </div>
+
+		<div class="three columns nx-contentright">
+			<div id="insucf">
+
+                 	<div id="Panel1">
+		<div class="mobile-three nx-boxwrapper">
+			<div class="nx-boxleftline"></div>
+			<div class="box">
+				<div class="nx-titlebox">
+					<i class="loginkey_icon"></i>Вход в систему
+				</div>
+				<div class="form_login">
+					<div class="nx-input">
+						<input type="text" id="uemail" name="uemail" placeholder="Ваш e-mail"/>
+					</div>
+				
+					<div class="nx-input">
+						<input type="password" id="upass" name="upass" placeholder="Пароль"/>
+					</div>
+
+				    <div class='error_' id="errLoginPass" style="display: none">
+						<img src='img/error2.png' alt='' /> Логин и пароль не совпадают
+					</div>
+
+
+					<div class="nx-loginremebertext">
+						<a href='RU.html#' onclick="if (!window.__cfRLUnblockHandlers) return false; swal('','Для того, чтобы стать зарегистрированным участником просто оформите заявку!','info');" class="rega inline" title="Регистрация" data-cf-modified-cb4ba55536384d4e88e7e4e6-="">Регистрация</a><br>
+						<a href='https://cryptopay24.com/uremember/RU' class="rememb inline" title="Забыли пароль?" rel="nofollow">Забыли пароль?</a>
+					</div>
+				
+					<div class="nx-buttonlogin">
+						<input type="submit" class="medium button" id="ButtonL" onclick="if (!window.__cfRLUnblockHandlers) return false; ButtonL();" value="ВОЙТИ" data-cf-modified-cb4ba55536384d4e88e7e4e6-="" />
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	</form>
+
+
+
+            </div>
+<!--<a style = "margin: -15px 67px 15px;    display: block;" href="https://amlbot.com/" target="_blank"><img src="	https://cryptopay24.com/img/aml.png" /></a>	-->	
+            		<div class="newsboxwr nx-boxwrapper">
+			<div class="nx-boxleftline"></div>
+			<div class="box">
+				<div class="nx-titlebox">
+					<i class="megaphone-icon"></i><a href='news/RU.html'>Новости</a>
+				</div>
+				
+
+                                <p class="newsblock">
+                <span class="dates"> 1.1.2023 </span>
+                <a class="news" href="news/RU.html">Дорогие клиенты, поздравляем Вас с Новым годом!</a>
+				</p>
+                                <p class="newsblock">
+                <span class="dates"> 28.10.2021 </span>
+                <a class="news" href="news/RU.html">Добавлены в мониторинг Bestchange.ru</a>
+				</p>
+                                <p class="newsblock">
+                <span class="dates"> 1.05.2021 </span>
+                <a class="news" href="news/RU.html">На сайт добавлены новые криптовалюты.</a>
+				</p>
+                
+            </div>
+		</div><!--
+            				<style type="text/css">
+
+    
+.trustpilot-widget iframe {
+  margin-left: -8px !important;
+}
+    
+
+</style>
+				<div class="newsboxwr nx-boxwrapper">
+			<div class="nx-boxleftline"></div>
+				
+			<div class="box">
+			
+				<div class="nx-titlebox">
+					<i class="comment-icon"></i><a href='/uresp/RU'>Отзывы</a>
+					
+				</div>
+				
+			
+				
+
+                                <p class="newsblock">
+                <span class="dates"> N/A </span>
+                <a class="news" href="/uresp/RU">Все прошло быстро и отлично. Спасибо.</a>
+				</p>
+                                <p class="newsblock">
+                <span class="dates"> N/A </span>
+                <a class="news" href="/uresp/RU">Сделал подряд 3 обмена, все пришло, спасибо)</a>
+				</p>
+                                <p class="newsblock">
+                <span class="dates"> N/A </span>
+                <a class="news" href="/uresp/RU">9 минут и 50к выслали, спасибо</a>
+				</p>
+                
+            </div>
+		</div>
+				-->		
+
+		</div>
+	</div>
+	
+	<div class="nx-descriptionmain ">
+		<div class="box nx-news-content">
+				<div class="nx-descriptionmain ">
+		<div class="box row nx-news-content">
+					</div>
+	</div>
+		</div>
+	</div>
+</div>
+
+<!--footer-->
+<!--<div class="nx-partners-wrapp">
+	<div class="row">
+		<div class="nx-partners">
+                    <div class="twelve columns">
+                        <ul class="nexa-partners-slide0" style="display: none">
+                            <li><a href="https://passport.webmoney.ru/asp/certview.asp?wmid=323180169307" target="_blank">
+                                <img src="/img/wm-cert.jpg" alt="Аттестован Вебмани"></a>
+                            </li>
+                            <li><a href="http://webmoney.ru" target="_blank">
+                                <img src="/img/wm.jpg" alt="Вебмани"></a>
+                            </li>
+                        </ul>
+                        <ul class="nexa-partners-slide">
+                            <li><a href="https://advcash.com/">
+                                <img src="/img/p-advcashlogo.png"></a>
+                            </li>
+                            <li><a href="https://www.okpay.com/">
+                                <img src="/img/p-okpay.png"></a>
+                            </li>
+                            <li><a href="https://payeer.com/">
+                                <img src="/img/p-payeer.png"></a>
+                            </li>
+                            <li><a href="https://perfectmoney.is/">
+                                <img src="/img/p-perfect_money.png"></a>
+                            </li>
+                        </ul>
+                        <ul class="nexa-partners-slide1" style="display: none">
+                            <li><a href="https://perfectmoney.is">
+                                <img src="/img/perfm.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.WEXUSD.com">
+                                <img src="/img/BTCEUSD_logo.png" alt=""></a>
+                            </li>
+                            <li><a href="https://pecunix.com/">
+                                <img src="/img/icons2_03.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.paypal.com">
+                                <img src="/img/icons2_04.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.liqpay.com">
+                                <img src="/img/liqpay_logo3.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.qiwi.com">
+                                <img src="/img/qiwi_logo.png" alt=""></a>
+                            </li>
+                            <li><a href="https://www.okpay.com">
+                                <img src="/img/okpay_log.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+	</div>
+</div>-->
+	<div class="nx-footer-wrapp">
+	<div class="row">
+		<div class="four columns">
+                <ul class="nx-footermenu">
+				<!--<li><a href="/tariff/RU#simple1" class="left">Тарифы </a> </li>-->
+				<li><a href="fraud/RU.html" title="" class="left">Предупреждение о мошенничестве</a></li>
+				<li><a href="useragreement/RU.html" title="" class="left">Пользовательское соглашение</a></li>
+                <li><a href="Refundpolicy/RU.html" title="" class="left">Политика возвратов</a></li> 
+                 				
+			</ul>
+		</div>
+       <div class="four columns">
+			<ul class="nx-footermenu">
+				<li><a href="amlpolicy/RU.html" class="left">AML Политика</a> </li>
+				<li><a href="request/RU.html" class="left">Для запросов государственных и правоохранительных органов</a> </li>
+				                      
+			</ul>
+		</div>
+		<div class="four columns">
+			<div class="nx-footerbanners">
+                        <div class="twelve columns nx-footerbanners-title">&nbsp;</div>
+                        <div class="twelve columns nx-footerbanner">
+                        </div>
+                        <div class="twelve columns nx-footerbanner">
+                        </div>
+						
+			</div>
+		</div>
+		<div class="four columns">
+			<div class="nx-footercopyright" >
+						<p class="nx-copyright" style="margin-top: -10px">&nbsp;</p>
+						
+			</div>
+			<a href="https://www.bestchange.ru/cryptopay24-exchanger.html">
+					<img src="img/bestchange.svg"
+                           title="Наши отзывы на крупнейшем мониторинге BestChange"
+                              alt="Мониторинг обменных пунктов BestChange.ru"
+                                width="88" height="18" border="0" />
+					</a>
+		</div>
+	</div>
+</div>
+		<div class="nexa-footer">
+            <div class="nexa-footer_resize row">
+                <p class="nx-lf">Copyright © <a href="RU.html#">Cryptopay24.com</a>. Все права защищены 2016-2024.</p>
+                <p class="nx-rf">&nbsp;</p>
+                <div class="clr"></div>
+            </div>
+        </div>		
+		
+		
+
+     <input id="gl-csrf-token" name="TTRGSDY0ZHV6ejRCa1V4cEJoYVBmUT09" value="eFcrV0pFMUdqYjUwUFo0N3paZEgvQT09" type="hidden" />
+     <input id="uhid" value="" type="hidden" />
+     <script type="cb4ba55536384d4e88e7e4e6-text/javascript">
+
+         $(document).ready(function () {
+
+             show_hidden('exchange');
+             show_pay('exch_500', 'exch_33', this);
+             show_hiddenorder('zayorder');
+			 
+			 
+
+         });
+
+         function ButtonL() {
+
+             if ($('#uemail').val().length == 0 || $('#upass').val().length == 0) {
+                 $("#errLoginPass").show();
+                 return;
+             }
+
+             $.ajax({
+                 type: "POST",
+                 url: "/ulogin/slogin/RU",
+                 data: {
+                     uemail: $('#uemail').val(), upass: $('#upass').val(), uhid: $('#uhid').val(), 
+                     tk: $('#gl-csrf-token').attr('name'), tv: $('#gl-csrf-token').val()
+                 },
+                 dataType: "json",
+                 success: function (data, textStatus) {
+				 
+				  if(data.blocked != null)
+               
+
+
+			   {
+				                   
+
+                    if( window.location.href == "https://cryptopay24.com/RU") {
+
+                       
+                        swal({
+                            html:true,
+                title: "Отказано в обслуживании.", 
+                html: ' Учетная запись заблокирована администрацией сервиса. ', 
+                type: "error",
+				width: 650,
+                heght: 450,
+                showCancelButton: false, 
+                showConfirmButton: false,
+				allowOutsideClick: false,
+                allowEscapeKey: false
+                        });
+
+                    }
+                    else {
+
+                       
+                        swal({
+                            html:true,
+                title: "Service denied.", 
+                html: 'The account has been blocked by the administration of the service.', 
+                type: "error",
+				width: 650,
+                heght: 450,
+                showCancelButton: false, 
+                showConfirmButton: false,
+				allowOutsideClick: false,
+                allowEscapeKey: false
+                         });
+
+                                    }
+
+
+                                }
+
+                     if (data.retdat == null) {
+
+                         $("#errLoginPass").show();
+
+                         $('#gl-csrf-token')
+                                 .attr('name', data.csrfname)
+                                 .val(data.csrfval);
+                     }
+                     else {
+
+                         $("#insucf").html(data.retdat);
+
+                         $('#gl-csrf-token')
+                                 .attr('name', data.csrfname)
+                                 .val(data.csrfval);
+                     }
+                 },
+                 error: function () {
+                 }
+             });
+         }
+
+         function ButtonUL() {
+
+             $.ajax({
+                 type: "POST",
+                 url: "/ulogin/unlogin/RU",
+                 data: {},
+                 dataType: "html",
+                 success: function (results) {
+                     window.location.href = '/RU';
+                 },
+                 error: function () {
+                 }
+             });
+
+         }
+
+         function ButtonPUL() {
+
+             $.ajax({
+                 type: "POST",
+                 url: "/partners/punlogin/RU",
+                 data: {},
+                 dataType: "html",
+                 success: function (results) {
+                     window.location.href = '/partners/RU';
+                 },
+                 error: function () {
+                 }
+             });
+
+         }
+
+     </script>
+
+<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="cb4ba55536384d4e88e7e4e6-|49" defer></script></body>
+</html>
